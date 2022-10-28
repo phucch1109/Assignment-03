@@ -14,9 +14,13 @@ btn.addEventListener("click", function () {
   if (regex.test(inputValue)) {
     formEl.classList.toggle("d-none");
     infoEl.classList.toggle("d-none");
-  } else if (inputValue === "")
+  } else if (inputValue === "") {
     messageEl.textContent = "Bạn phải nhập gì đó chứ!";
-  else messageEl.textContent = "Có phải email đâu bạn!";
+    messageEl.classList.add("error-color");
+  } else {
+    messageEl.classList.add("error-color");
+    messageEl.textContent = "Có phải email đâu bạn!";
+  }
 });
 
 //hàm listen click job header
@@ -24,7 +28,6 @@ for (let i = 0; i < 6; i++) {
   const infoHeaderEl = document.querySelector(`#job-info-header${i}`);
   const infoDescEl = document.querySelector(`#job-info-desc${i}`);
   const viewEl = document.querySelector(`#job-info-header${i} > h4`);
-  console.log(viewEl);
   infoHeaderEl.addEventListener("click", function () {
     infoDescEl.classList.toggle("d-none");
     viewEl.textContent =

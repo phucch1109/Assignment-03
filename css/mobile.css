@@ -1,8 +1,5 @@
 /* For mobile phones: */
 @media (max-width: 768px) {
-  #banner-text {
-    color: yellow;
-  }
   /* style nav */
   nav {
     flex-direction: column;
@@ -26,6 +23,7 @@
     grid-template-columns: 1fr;
   }
 
+  /*certificate*/
   #certificate > .container {
     grid-template-columns: 1fr;
   }

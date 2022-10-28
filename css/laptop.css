@@ -320,3 +320,6 @@ section > .container {
 .section-title {
   margin-bottom: 0;
 }
+.error-color {
+  color: red;
+}
