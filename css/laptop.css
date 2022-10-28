@@ -88,7 +88,7 @@ nav i,
 ul {
   padding: 0;
   list-style-type: none;
-  margin: 40px;
+  margin: 40px 20px;
 }
 
 .input-email-form {
@@ -301,6 +301,10 @@ tr:last-child td {
 #footer a:hover {
   text-decoration: underline;
 }
+.error-color {
+  color: red;
+}
+
 /* assignment template*/
 
 .bg-grey {
@@ -319,7 +323,4 @@ section > .container {
 }
 .section-title {
   margin-bottom: 0;
-}
-.error-color {
-  color: red;
 }
