@@ -1,0 +1,35 @@
+/* For mobile phones: */
+@media (max-width: 768px) {
+  #banner-text {
+    color: yellow;
+  }
+  /* style nav */
+  nav {
+    flex-direction: column;
+    text-align: left;
+  }
+  nav a {
+    padding: 3px 20px;
+  }
+
+  #about ul {
+    padding: 0;
+    margin: 40px 20px;
+  }
+
+  /*about*/
+  #about > .container {
+    grid-template-columns: 1fr;
+  }
+
+  .three-column {
+    grid-template-columns: 1fr;
+  }
+
+  #certificate > .container {
+    grid-template-columns: 1fr;
+  }
+  .orange-border-left {
+    border-left: 0;
+  }
+}

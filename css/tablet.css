@@ -1,0 +1,21 @@
+@media (max-width: 992px) {
+  /* hide avatar */
+  #nav-bar img {
+    display: none;
+  }
+  .empty {
+    display: none;
+  }
+  /* banner header stay middle */
+  #banner-text {
+    top: 30%;
+  }
+  .three-column {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .certificate-item img {
+    width: 60%;
+  }
+}
